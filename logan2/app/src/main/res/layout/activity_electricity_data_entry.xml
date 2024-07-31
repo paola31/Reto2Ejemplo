@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextKilowatt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kilowatthora (kWh)" />
+
+    <EditText
+        android:id="@+id/editTextMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mes"
+        android:layout_below="@id/editTextKilowatt" />
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:layout_below="@id/editTextMonth" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_below="@id/editTextPrice" />
+</RelativeLayout>
+
+
+
